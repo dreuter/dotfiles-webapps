@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Microsoft Word
+Exec=appify-identpro "https://word.office.com/"
+Icon=microsoft-word
+StartupWMClass=word.office.com
+StartupNotify=true

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Microsoft Excel
+Exec=appify-identpro "https://excel.office.com/"
+Icon=microsoft-excel
+StartupWMClass=excel.office.com
+StartupNotify=true

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Microsoft SharePoint
+Exec=appify-identpro "https://identpro.sharepoint.com/"
+Icon=microsoft-sharepoint
+StartupWMClass=identpro.sharepoint.com
+StartupNotify=true

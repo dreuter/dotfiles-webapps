@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Microsoft OneNote
+Exec=appify-identpro "https://onenote.office.com/"
+Icon=microsoft-onenote
+StartupWMClass=onenote.office.com
+StartupNotify=true

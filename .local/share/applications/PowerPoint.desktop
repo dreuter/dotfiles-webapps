@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Microsoft PowerPoint
+Exec=appify-identpro "https://powerpoint.office.com/"
+Icon=microsoft-powerpoint
+StartupWMClass=powerpoint.office.com
+StartupNotify=true
