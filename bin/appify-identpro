@@ -1,0 +1,25 @@
+#!/bin/bash
+set -o errexit
+set -o nounset
+set -o pipefail
+
+if [[ $# -ne 1 ]]
+then
+  echo "Usage: $0 <URL>"
+  exit 1
+fi
+
+function command_exists {
+  command -v "$1" 2>&1 >/dev/null
+}
+
+if command_exists chromium-browser
+then
+  chromium-browser --app="$1"
+elif command_exists chromium
+then
+  chromium --app="$1" 2&1> /dev/null
+else
+  echo "Please install 'chromium', i.e. with 'sudo apt install chromium-browser'" 1>&2
+  exit 1
+fi
