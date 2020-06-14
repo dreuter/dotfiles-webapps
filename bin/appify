@@ -15,10 +15,10 @@ function command_exists {
 
 if command_exists chromium-browser
 then
-  chromium-browser --app="$1"
+  chromium-browser --user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" --app="$1"
 elif command_exists chromium
 then
-  chromium --app="$1" 2&1> /dev/null
+  chromium --user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" --app="$1" 2&1> /dev/null
 else
   echo "Please install 'chromium', i.e. with 'sudo apt install chromium-browser'" 1>&2
   exit 1
