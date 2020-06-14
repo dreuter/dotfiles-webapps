@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Gmail by Google
+Exec=appify "https://mail.google.com/"
+Icon=gmail
+StartupWMClass=mail.google.com
+StartupNotify=true

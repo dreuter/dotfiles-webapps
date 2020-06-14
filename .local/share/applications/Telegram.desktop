@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Telegram
+Exec=appify "https://web.telegram.org/"
+Icon=telegram
+StartupWMClass=web.telegram.org
+StartupNotify=true

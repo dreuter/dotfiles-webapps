@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=WhatsApp
+Exec=appify "https://web.whatsapp.com/"
+Icon=whatsapp
+StartupWMClass=web.whatsapp.com
+StartupNotify=true
