@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Google Messages
+Exec=appify "https://messages.google.com/web/"
+Icon=google-messages
+StartupWMClass=messages.google.com__web
+StartupNotify=true
