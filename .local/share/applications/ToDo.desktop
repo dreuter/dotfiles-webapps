@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Microsoft ToDo
+Exec=appify-identpro "https://todo.microsoft.com/"
+Icon=microsoft-todo
+StartupWMClass=todo.microsoft.com
+StartupNotify=true
