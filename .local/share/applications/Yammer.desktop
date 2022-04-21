@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Microsoft Yammer
+Exec=appify "https://www.yammer.com/identpro.de/"
+Icon=microsoft-yammer
+StartupWMClass=www.yammer.com__identpro.de
+StartupNotify=true

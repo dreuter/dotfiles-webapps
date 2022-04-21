@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Microsoft Teams (Web Version)
+Exec=appify "https://teams.office.com/"
+Icon=microsoft-teams
+StartupWMClass=teams.office.com
+StartupNotify=true

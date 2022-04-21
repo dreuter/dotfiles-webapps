@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Microsoft OneDrive
+Exec=appify "https://identpro-my.sharepoint.com/"
+Icon=microsoft-onedrive
+StartupWMClass=identpro-my.sharepoint.com
+StartupNotify=true

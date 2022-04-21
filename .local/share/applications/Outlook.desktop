@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Microsoft Outlook
+Exec=appify "https://outlook.office.com/"
+Icon=microsoft-outlook
+StartupWMClass=outlook.office.com
+StartupNotify=true
