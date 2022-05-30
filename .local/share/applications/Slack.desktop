@@ -1,7 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Slack
-Exec=appify "https://identpro.slack.com"
-Icon=slack
-StartupWMClass=identpro.slack.com
-StartupNotify=true
