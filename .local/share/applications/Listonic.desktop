@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Listonic
+Exec=appify "https://app.listonic.com/"
+Icon=listonic
+StartupWMClass=app.listonic.com
+StartupNotify=true
